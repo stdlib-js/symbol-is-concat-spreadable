@@ -35,7 +35,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-is-concat-spreadable-symbol-support": "github:stdlib-js/assert-has-is-concat-spreadable-symbol-support#main"
+    "@stdlib/assert-has-is-concat-spreadable-symbol-support": "github:stdlib-js/assert-has-is-concat-spreadable-symbol-support#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-has-iterator-symbol-support": "^0.2.2",
