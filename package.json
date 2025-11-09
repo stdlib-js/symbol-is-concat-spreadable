@@ -38,7 +38,6 @@
     "@stdlib/assert-has-is-concat-spreadable-symbol-support": "github:stdlib-js/assert-has-is-concat-spreadable-symbol-support#main"
   },
   "devDependencies": {
-    "@stdlib/assert-has-iterator-symbol-support": "^0.2.2",
     "@stdlib/assert-is-symbol": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
