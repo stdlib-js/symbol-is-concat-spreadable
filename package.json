@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/symbol-is-concat-spreadable",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Concat spreadable symbol.",
   "license": "Apache-2.0",
   "author": {
