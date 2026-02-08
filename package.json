@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/symbol-is-concat-spreadable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Concat spreadable symbol.",
   "license": "Apache-2.0",
   "author": {
@@ -35,10 +35,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-is-concat-spreadable-symbol-support": "github:stdlib-js/assert-has-is-concat-spreadable-symbol-support#main"
+    "@stdlib/assert-has-is-concat-spreadable-symbol-support": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-symbol": "^0.2.2",
+    "@stdlib/assert-is-symbol": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
