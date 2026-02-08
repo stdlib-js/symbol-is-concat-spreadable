@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IsConcatSpreadableSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@deno/mod.js';
+import IsConcatSpreadableSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@v0.1.1-deno/mod.js';
 ```
 
 #### IsConcatSpreadableSymbol
@@ -89,7 +89,7 @@ var s = typeof IsConcatSpreadableSymbol;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import IsConcatSpreadableSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@deno/mod.js';
+import IsConcatSpreadableSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@v0.1.1-deno/mod.js';
 
 var x = [ 1, 2, 3 ];
 var y = {
