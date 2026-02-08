@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+IsConcatSpreadableSymbol = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/symbol-is-concat-spreadable/tags). For example,
+
+```javascript
 IsConcatSpreadableSymbol = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@v0.1.1-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var IsConcatSpreadableSymbol = require( 'path/to/vendor/umd/symbol-is-concat-spr
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -116,7 +121,7 @@ var s = typeof IsConcatSpreadableSymbol;
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
