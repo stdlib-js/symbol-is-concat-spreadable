@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import IsConcatSpreadableSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/symbol-is-concat-spreadable/tags). For example,
+
+```javascript
 import IsConcatSpreadableSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@v0.1.1-esm/index.mjs';
 ```
 
@@ -94,7 +99,7 @@ var s = typeof IsConcatSpreadableSymbol;
 <body>
 <script type="module">
 
-import IsConcatSpreadableSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@v0.1.1-esm/index.mjs';
+import IsConcatSpreadableSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-is-concat-spreadable@esm/index.mjs';
 
 var x = [ 1, 2, 3 ];
 var y = {
